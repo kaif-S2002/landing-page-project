@@ -6,43 +6,79 @@
 }
 .container {
   display: flex;
-  height: 100vh;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  background: rgba(226, 226, 226, 0.842);
+}
+.offer-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  background-color: rgb(190, 190, 190);
+  letter-spacing: 2px;
+  padding: 2px 0px;
+  width: 100%;
 }
 .nav {
   display: flex;
-  padding: 4px;
-  /* border: 2px solid black; */
-  width: 100vw;
-  height: 4.5em;
-  position: fixed;
-  overflow: hidden;
-  background-color: rgb(224, 224, 224);
-}
-.logo {
-  display: flex;
-  height: 100%;
-  background: cover;
-  /* border: 2px solid black; */
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
-}
-.logo a span img {
-  width: 6em;
   height: 4em;
+  width: 100%;
+  letter-spacing: 1px;
+  padding: 20px 10px 20px 10px;
+  box-shadow: 1px 1px 10px rgb(182, 182, 182);
+  background: rgba(255, 255, 255, 0.815);
+  z-index: 1;
 }
-.logo h1 {
-  font-size: 26px;
-  font-family: "Times New Roman", Times, serif;
-  transform: translateY(10%);
-  font-style: italic;
+.nav h1 {
+  color: rgb(133, 133, 133);
+  font-size: 34px;
+  margin-left: 1.2em;
+  text-shadow: 1px 1px 4px rgb(161, 161, 161);
+}
+.nav h1 span {
+  color: rgb(71, 71, 71);
+}
+.list {
+  margin-right: 3em;
+}
+.list-items {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 2px;
+  margin: 0px 20px;
+  font-size: 20px;
+  font-family: monospace;
+  text-shadow: 0.5px 0.5px 2px rgba(180, 180, 180, 0.685);
+}
+.list :hover {
+  color: rgb(44, 44, 44);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.616);
+  text-shadow: 0.5px 0.5px 2px rgba(17, 17, 17, 0.493);
+}
+.banner {
+  width: 100%;
+  height: 100%;
+}
+.banner-img {
+  width: 100%;
+}
+.banner-img img {
+  width: 100%;
+  height: 100%;
 }
 .massage {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 6em;
   width: 100%;
   font-size: 1em;
   color: rgb(122, 122, 122);
+  background: transparent;
 }
 .massage h1 {
   border-bottom: 1px solid rgb(122, 122, 122);
