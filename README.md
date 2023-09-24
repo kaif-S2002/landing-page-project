@@ -1,2 +1,2 @@
-# restaurant-project
-restaurant landing page
+# landing-page-project
+creating a product landing page using HTML, CSS & Javascript.
