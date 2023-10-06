@@ -73,9 +73,12 @@ html {
 .banner {
   width: 100%;
 }
-.banner-img img {
-  height: 34em;
+#banner-lg {
+  height: 15cm;
   width: 100%;
+}
+#banner-sm {
+  display: none;
 }
 .product-img {
   width: 100%;
@@ -84,15 +87,16 @@ html {
 }
 .product-img img {
   width: 100%;
-  background-image: url("public/8.jpg");
-  background-size: cover;
+  /* background-image: url("public/8.jpg"); */
+  /* background-image: url("public/13.avif"); */
+  background: rgb(190, 190, 190);
 }
 .images-1 img {
   height: 8cm;
   margin: 30px 40px;
   border-radius: 20px;
-  padding: 0px 4em;
-  width: 40%;
+  padding: 0px 3em;
+  width: 34%;
 }
 .img-1 {
   display: flex;
@@ -250,6 +254,14 @@ html {
   .list {
     opacity: 0;
   }
+  #banner-lg {
+    display: none;
+  }
+  #banner-sm {
+    display: flex;
+    height: 10cm;
+    width: 100%;
+  }
   /* .list {
     display: flex;
     flex-direction: column;
@@ -299,35 +311,39 @@ html {
   }
   .image-lg {
     padding-top: 1.5px;
+    border-bottom: 0.5px solid black;
+    padding-bottom: 2em;
   }
   .images-1 {
     width: 100%;
-    padding: 30px;
+    padding: 10px 35px;
   }
   .images-1 img {
-    height: 8cm;
+    height: 5cm;
     margin: 0px;
-    border-radius: 20px;
-    padding: 0px 8em;
+    border-radius: 10px;
+    padding: 0px 1.6em;
     width: 100%;
   }
   .des-1 {
-    padding: 20px 30px;
+    padding: 10px 20px;
     margin: 10px 0px 50px 0px;
-    font-size: 22px;
+    font-size: 16px;
     letter-spacing: 2px;
     width: 100%;
   }
   .des-2 {
-    padding: 20px 30px;
+    padding: 20px 20px;
     margin: 10px 0px 50px 0px;
-    font-size: 22px;
+    font-size: 16px;
     letter-spacing: 2px;
     width: 100%;
   }
   .des-1 h1,
   .des-2 h1 {
-    margin-bottom: 10px;
+    font-size: 1.8em;
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
   }
   .buy-link button {
     font-size: 1.5em;
