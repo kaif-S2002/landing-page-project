@@ -240,9 +240,6 @@ html {
   .nav h1 {
     margin-left: 10px;
   }
-  .list {
-    /* opacity: 1; */
-  }
   #banner-lg {
     display: none;
   }
@@ -282,15 +279,24 @@ html {
     justify-content: center;
     align-items: center;
     transition: 0.5s ease-in-out;
+    margin-right: 10px;
   }
   #hamb {
     display: flex;
-    width: 30px;
-    margin-right: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  #cross {
-    display: none;
-    width: 50px;
+  #hamb div {
+    width: 2em;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 2.5px;
+  }
+  .menu-btn p {
+    font-size: 1.8em;
+    padding-left: 11px;
   }
   .images-2 {
     padding: 0px 10px;
